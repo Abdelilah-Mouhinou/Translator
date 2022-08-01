@@ -1,0 +1,109 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(27, 27, 27);
+}
+
+.container{
+    box-shadow: 0px 0px 12px rgba(26, 128, 0, 0.562);
+    width: 690px;
+    background-color: rgb(54, 50, 50);
+    border-radius: 7px;
+    padding: 30px;
+}
+
+.wrapper{
+    border-radius: 5px;
+    border: 1px solid rgb(75, 73, 73);
+}
+
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid rgb(70, 68, 68);
+}
+
+.text-input .to-text{
+    border-radius: 0px;
+    border-left: 1px solid rgb(77, 72, 72);
+}
+
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.controls, li, .icons, .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.controls .row.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid rgb(148, 99, 99);
+}
+
+.controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid rgb(148, 99, 99);
+}
+.controls .icons{
+    width: 38%;
+}
+
+.controls .icons i{
+    width: 50px;
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .row select{
+    border: 1px solid rgb(75, 64, 64);
+    outline: 1px solid transparent;
+    font-size: 18px;
+    background: none;
+    color: #969696;
+}
+select option{
+    background-color: #636366;
+}
+.controls .exchange{
+    color: #7261be;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: #2a2a2e;
+}
